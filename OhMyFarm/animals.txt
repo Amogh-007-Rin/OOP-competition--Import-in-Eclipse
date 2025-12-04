@@ -1,0 +1,10 @@
+MOUSE,Mickey,4
+MOUSE,Minnie,3
+
+DUCK,Daisy,2
+DUCK,Donald,5
+
+PIG,Peppa,6
+PIG,George,3
+PIG,DaddyPig,20
+

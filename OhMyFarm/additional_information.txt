@@ -1,0 +1,76 @@
+============================================================
+                    ANIMAL DATA FORMAT (INPUT)
+============================================================
+
+Each line in animals.txt follows the structure:
+
+    <TYPE>,<NAME>,<AGE_MONTHS>
+
+Where:
+    <TYPE>        is one of MOUSE, DUCK, or PIG
+    <NAME>        is the animal’s name
+    <AGE_MONTHS>  is the animal’s age in months
+
+
+============================================================
+                     ANIMAL INTRODUCTION
+============================================================
+
+Every animal can make an introduction.
+
+Each animal type uses its own introduction style. The style
+differs in the way information is ordered and phrased, but each
+must include:
+
+    - the animal’s name
+    - the correct label (baby or adult)
+    - the correct sound
+    - the age in months
+
+
+============================================================
+                METADATA FOR EACH ANIMAL TYPE
+============================================================
+
+------------------------------------------------------------
+MOUSE
+------------------------------------------------------------
+Baby label:        pup
+Adult label:       mouse
+Adult threshold:   5 months
+Baby sound:        squeak
+Adult sound:       SQUEAK!
+
+Introduction style:
+    My sound is "<SOUND>". I am <NAME>, a <LABEL>.
+    I am <AGE_MONTHS> months old.
+
+------------------------------------------------------------
+DUCK
+------------------------------------------------------------
+Baby label:        duckling
+Adult label:       duck
+Adult threshold:   6 months
+Baby sound:        cheep
+Adult sound:       QUACK!
+
+Introduction style:
+    I am <NAME>, a <LABEL>, and I say "<SOUND>".
+    I am <AGE_MONTHS> months old.
+
+------------------------------------------------------------
+PIG
+------------------------------------------------------------
+Baby label:        piglet
+Adult label:       pig
+Adult threshold:   10 months
+Baby sound:        oink
+Adult sound:       OINK-OINK
+
+Introduction style:
+    At <AGE_MONTHS> months old, I am <NAME> the <LABEL>.
+    My sound is "<SOUND>".
+
+============================================================
+                           END
+============================================================

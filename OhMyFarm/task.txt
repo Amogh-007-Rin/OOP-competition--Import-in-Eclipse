@@ -1,0 +1,75 @@
+============================================================
+                   TASK DESCRIPTION
+============================================================
+
+Write a Java program that:
+
+  1. Loads all animals data from the file: animals.txt.
+
+  2. Makes an introduction for each animal using the required
+     format described in additional_information.txt.
+
+
+============================================================
+                   EXAMPLE OUTPUT
+============================================================
+
+My sound is "squeak". I am Mickey, a pup.
+I am 4 months old.
+
+My sound is "squeak". I am Minnie, a pup.
+I am 3 months old.
+
+I am Daisy, a duckling, and I say "cheep".
+I am 2 months old.
+
+I am Donald, a duckling, and I say "cheep".
+I am 5 months old.
+
+At 6 months old, I am Peppa the piglet.
+My sound is "oink".
+
+At 3 months old, I am George the piglet.
+My sound is "oink".
+
+At 20 months old, I am DaddyPig the pig.
+My sound is "OINK-OINK".
+
+
+============================================================
+                   THINGS TO CONSIDER
+============================================================
+
+When designing your program, you should:
+
+  - use classes to model your data and behaviour
+  - use encapsulation (e.g. private fields with public methods)
+  - use appropriate access modifiers (e.g. public, private)
+  - separation of concerns (e.g. avoid long and bulky methods)
+
+You may also wish to consider more advanced OO features, such as:
+
+  - interfaces
+  - inheritance
+  - polymorphism
+
+
+============================================================
+                    ADDITIONAL TASK
+============================================================
+
+Animals can grow over time.
+
+After printing the initial introductions:
+
+  1. Increase the age of every animal by 3 months and print
+     a new introduction for each animal.
+
+  2. Increase the age of every animal by a further 3 months
+     (a total of +6 months from the original age) and print
+     another introduction.
+
+
+============================================================
+                         END
+============================================================
